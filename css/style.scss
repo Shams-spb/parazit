@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'MuseoModerno', sans-serif;
+}
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav_container {
+    display: flex;
+    align-items: center;
+}
+.header_nav {
+    margin-right: 25px;
+}
+.header_nav > ul {
+    display: flex;
+    align-items: center;
+}
+.header_nav > ul > li {
+    margin-left: 15px;
+}
+.header_nav > ul > li:first-child {
+    margin-left: 0;
+}
+.header_nav > ul > li a {
+    color: #372d2d;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header_social_block {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.header_social_block a {
+    display: block;
+    margin-left: 10px;
+}
+.header_social_block a:first-child {
+    margin-left: 0; 
+}
+.header_phone_block {
+    display: flex;
+    align-items: center;
+}
+.header_phone_block a {
+    color: #372d2d;
+    font-weight: 600;
+}
+.promo {
+    padding: 16px 0;
+}
+.promo_container {
+    width: 100%;
+    height: 560px;
+    padding-left: 50px;
+    background-image: url(../images/antBg.png);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.promo_title {
+    font-size: 45px;
+    font-weight: 900;
+}
+.promo_descr_block_descr {
+    font-size: 24px;
+}
+.promo_btn {
+    background-color: #ff4c14;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.promo_btn a {
+    color: #ffffff;
+    font-size: 22px;
+}
+.method_container {
+    width: 90%;
+    margin: 0 auto;
+}
+.method_block {
+    display: flex;
+    align-items: center;
+}
+.method_title {
+    font-size: 56px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.method_descr {
+    font-size: 24px;
+    color: #372d2d;
+}
+.method_subblock {
+    width: 294px;
+    height: 340px;
+    border-radius: 20px;
+    background-color: #E6EEF5;
+    padding: 30px;
+    position: relative;
+}
+.method_subblock:nth-child(2) {
+    background-color: #F5E6EC;
+}
+.method_subblock:nth-child(3) {
+    background-color: #EFF5E6;
+}
+.jcsb {
+    justify-content: space-between;
+}
+.method_subblock_title {
+    font-size: 36px;
+    font-weight: 200;
+    color: #372d2d;
+    margin-top: 0;
+}
+.method_subblock_price {
+    display: block;
+    color: #ff4c14;
+    font-size: 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.form_container {
+    width: 100%;
+    min-height: 430px;
+    padding-left: 30px;
+    background: url(../images/knight.png) no-repeat right bottom, linear-gradient(#EC683F 0%, #FCA387 100%);
+    display: flex;
+    align-items: center;
+}
+.form_block {
+    width: 500px;
+}
+.form_title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.form_title span {
+    font-weight: 400;
+}
+.form_descr {
+    font-size: 22px;
+    font-weight: 200;
+}
+.form_block form {
+    display: flex;
+    align-items: flex-start;
+}
+.form_input_phone, .form_btn {
+    width: 255px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    display: block;
+    margin-right: 25px;
+}
+.form_input_phone:focus, .form_btn:focus {
+    outline: none;
+}
+.form_btn {
+    color: #ff4c14;
+    cursor: pointer;
+}
+.error {
+    font-size: 11px;
+    margin-top: 7px;
+    display: block;
+    color: red;
+    display: none;
+}
